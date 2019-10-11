@@ -1,0 +1,11 @@
+def f0(): return "lol"
+def f1(): return " ".join([f0(), f0(), f0(), f0(), f0(), f0(), f0(), f0(), f0(), f0()])
+def f2(): return " ".join([f1(), f1(), f1(), f1(), f1(), f1(), f1(), f1(), f1(), f1()])
+def f3(): return " ".join([f2(), f2(), f2(), f2(), f2(), f2(), f2(), f2(), f2(), f2()])
+def f4(): return " ".join([f3(), f3(), f3(), f3(), f3(), f3(), f3(), f3(), f3(), f3()])
+def f5(): return " ".join([f4(), f4(), f4(), f4(), f4(), f4(), f4(), f4(), f4(), f4()])
+def f6(): return " ".join([f5(), f5(), f5(), f5(), f5(), f5(), f5(), f5(), f5(), f5()])
+def f7(): return " ".join([f6(), f6(), f6(), f6(), f6(), f6(), f6(), f6(), f6(), f6()])
+def f8(): return " ".join([f7(), f7(), f7(), f7(), f7(), f7(), f7(), f7(), f7(), f7()])
+def f9(): return " ".join([f8(), f8(), f8(), f8(), f8(), f8(), f8(), f8(), f8(), f8()])
+f9()
