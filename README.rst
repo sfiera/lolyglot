@@ -23,6 +23,10 @@ gotemplate
 ----------
 Mitigated by the use of ``io.Writer``. Still consumes CPU, but not much memory.
 
+man
+---
+Mitigated by the use of ``$PAGER``. Expands until the pager no longer accepts input, then blocks on the pipe, preventing excessive memory and CPU use.
+
 xml
 ---
 Prevented by check for entity reference loops in libxml2. Parsers that are not based on libxml2 may still be vulnerable.

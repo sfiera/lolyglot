@@ -25,6 +25,10 @@ jsonnet: lol-jsonnet.jsonnet
 make: lol-make.mk
 	make -f $<
 
+.PHONY: man
+man: lol-man.5
+	man ./$<
+
 .PHONY: starlark
 starlark: lol-starlark.star
 	starlark $<
