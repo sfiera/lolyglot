@@ -29,6 +29,10 @@ make: lol-make.mk
 man: lol-man.5
 	man ./$<
 
+.PHONY: preproc
+preproc: lol-preproc.c
+	cc $<
+
 .PHONY: starlark
 starlark: lol-starlark.star
 	starlark $<
