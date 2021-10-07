@@ -33,6 +33,10 @@ Prevented by the use of line_length_limit_ since docutils 0.17.
 
 .. _line_length_limit: https://docutils.sourceforge.io/docs/user/config.html#line-length-limit`
 
+svg
+---
+Prevented in rsvg-convert and Google Chrome.
+
 xml
 ---
 Prevented by check for entity reference loops in libxml2. Parsers that are not based on libxml2 may still be vulnerable.

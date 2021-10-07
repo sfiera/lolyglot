@@ -43,6 +43,10 @@ rst: lol-rst.rst
 starlark: lol-starlark.star
 	starlark $<
 
+.PHONY: svg
+svg: lol-svg.svg
+	rsvg-convert lol-svg.svg > /dev/null
+
 .PHONY: xml
 xml: lol-xml.xml
 	python -c "import xml.etree.ElementTree as etree; print(etree.XML(open('$<').read()))"

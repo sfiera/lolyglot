@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100">
+  <defs>
+    <text id="a" text-anchor="middle" font-family="Comic Sans MS" font-size="100px" y="45">lol</text>
+    <g id="b" transform="scale(0.25, 0.25)">
+      <use x="-150" y="-150" xlink:href="#a"/>
+      <use x="150" y="-150" xlink:href="#a"/>
+      <use x="-150" y="-50" xlink:href="#a"/>
+      <use x="150" y="-50" xlink:href="#a"/>
+      <use x="0" y="-50" xlink:href="#a"/>
+      <use x="-150" y="50" xlink:href="#a"/>
+      <use x="150" y="50" xlink:href="#a"/>
+      <use x="-150" y="150" xlink:href="#a"/>
+      <use x="0" y="150" xlink:href="#a"/>
+      <use x="150" y="150" xlink:href="#a"/>
+    </g>
+    <g id="c" transform="scale(0.25, 0.25)">
+      <use x="-150" y="-150" xlink:href="#b"/>
+      <use x="150" y="-150" xlink:href="#b"/>
+      <use x="-150" y="-50" xlink:href="#b"/>
+      <use x="150" y="-50" xlink:href="#b"/>
+      <use x="0" y="-50" xlink:href="#b"/>
+      <use x="-150" y="50" xlink:href="#b"/>
+      <use x="150" y="50" xlink:href="#b"/>
+      <use x="-150" y="150" xlink:href="#b"/>
+      <use x="0" y="150" xlink:href="#b"/>
+      <use x="150" y="150" xlink:href="#b"/>
+    </g>
+    <g id="d" transform="scale(0.25, 0.25)">
+      <use x="-150" y="-150" xlink:href="#c"/>
+      <use x="150" y="-150" xlink:href="#c"/>
+      <use x="-150" y="-50" xlink:href="#c"/>
+      <use x="150" y="-50" xlink:href="#c"/>
+      <use x="0" y="-50" xlink:href="#c"/>
+      <use x="-150" y="50" xlink:href="#c"/>
+      <use x="150" y="50" xlink:href="#c"/>
+      <use x="-150" y="150" xlink:href="#c"/>
+      <use x="0" y="150" xlink:href="#c"/>
+      <use x="150" y="150" xlink:href="#c"/>
+    </g>
+    <g id="e" transform="scale(0.25, 0.25)">
+      <use x="-150" y="-150" xlink:href="#d"/>
+      <use x="150" y="-150" xlink:href="#d"/>
+      <use x="-150" y="-50" xlink:href="#d"/>
+      <use x="150" y="-50" xlink:href="#d"/>
+      <use x="0" y="-50" xlink:href="#d"/>
+      <use x="-150" y="50" xlink:href="#d"/>
+      <use x="150" y="50" xlink:href="#d"/>
+      <use x="-150" y="150" xlink:href="#d"/>
+      <use x="0" y="150" xlink:href="#d"/>
+      <use x="150" y="150" xlink:href="#d"/>
+    </g>
+    <g id="f" transform="scale(0.25, 0.25)">
+      <use x="-150" y="-150" xlink:href="#e"/>
+      <use x="150" y="-150" xlink:href="#e"/>
+      <use x="-150" y="-50" xlink:href="#e"/>
+      <use x="150" y="-50" xlink:href="#e"/>
+      <use x="0" y="-50" xlink:href="#e"/>
+      <use x="-150" y="50" xlink:href="#e"/>
+      <use x="150" y="50" xlink:href="#e"/>
+      <use x="-150" y="150" xlink:href="#e"/>
+      <use x="0" y="150" xlink:href="#e"/>
+      <use x="150" y="150" xlink:href="#e"/>
+    </g>
+    <g id="g" transform="scale(0.25, 0.25)">
+      <use x="-150" y="-150" xlink:href="#f"/>
+      <use x="150" y="-150" xlink:href="#f"/>
+      <use x="-150" y="-50" xlink:href="#f"/>
+      <use x="150" y="-50" xlink:href="#f"/>
+      <use x="0" y="-50" xlink:href="#f"/>
+      <use x="-150" y="50" xlink:href="#f"/>
+      <use x="150" y="50" xlink:href="#f"/>
+      <use x="-150" y="150" xlink:href="#f"/>
+      <use x="0" y="150" xlink:href="#f"/>
+      <use x="150" y="150" xlink:href="#f"/>
+    </g>
+    <g id="h" transform="scale(0.25, 0.25)">
+      <use x="-150" y="-150" xlink:href="#g"/>
+      <use x="150" y="-150" xlink:href="#g"/>
+      <use x="-150" y="-50" xlink:href="#g"/>
+      <use x="150" y="-50" xlink:href="#g"/>
+      <use x="0" y="-50" xlink:href="#g"/>
+      <use x="-150" y="50" xlink:href="#g"/>
+      <use x="150" y="50" xlink:href="#g"/>
+      <use x="-150" y="150" xlink:href="#g"/>
+      <use x="0" y="150" xlink:href="#g"/>
+      <use x="150" y="150" xlink:href="#g"/>
+    </g>
+    <g id="i" transform="scale(0.25, 0.25)">
+      <use x="-150" y="-150" xlink:href="#h"/>
+      <use x="150" y="-150" xlink:href="#h"/>
+      <use x="-150" y="-50" xlink:href="#h"/>
+      <use x="150" y="-50" xlink:href="#h"/>
+      <use x="0" y="-50" xlink:href="#h"/>
+      <use x="-150" y="50" xlink:href="#h"/>
+      <use x="150" y="50" xlink:href="#h"/>
+      <use x="-150" y="150" xlink:href="#h"/>
+      <use x="0" y="150" xlink:href="#h"/>
+      <use x="150" y="150" xlink:href="#h"/>
+    </g>
+    <g id="j" transform="scale(0.25, 0.25)">
+      <use x="-150" y="-150" xlink:href="#i"/>
+      <use x="150" y="-150" xlink:href="#i"/>
+      <use x="-150" y="-50" xlink:href="#i"/>
+      <use x="150" y="-50" xlink:href="#i"/>
+      <use x="0" y="-50" xlink:href="#i"/>
+      <use x="-150" y="50" xlink:href="#i"/>
+      <use x="150" y="50" xlink:href="#i"/>
+      <use x="-150" y="150" xlink:href="#i"/>
+      <use x="0" y="150" xlink:href="#i"/>
+      <use x="150" y="150" xlink:href="#i"/>
+    </g>
+  </defs>
+  <use x="50" y="50" xlink:href="#j"/>
+</svg>
