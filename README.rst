@@ -27,6 +27,12 @@ man
 ---
 Mitigated by the use of ``$PAGER``. Expands until the pager no longer accepts input, then blocks on the pipe, preventing excessive memory and CPU use.
 
+rst
+---
+Prevented by the use of line_length_limit_ since docutils 0.17.
+
+.. _line_length_limit: https://docutils.sourceforge.io/docs/user/config.html#line-length-limit`
+
 xml
 ---
 Prevented by check for entity reference loops in libxml2. Parsers that are not based on libxml2 may still be vulnerable.

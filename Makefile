@@ -4,6 +4,7 @@ help:
 	@ echo "       make jinja2"
 	@ echo "       make jsonnet"
 	@ echo "       make make"
+	@ echo "       make rst"
 	@ echo "       make starlark"
 	@ echo "       make xml"
 	@ echo "       make xslt"
@@ -32,6 +33,11 @@ man: lol-man.5
 .PHONY: preproc
 preproc: lol-preproc.c
 	cc $<
+
+.PHONY: rst
+rst: lol-rst.rst
+	# ruby -e "require 'github/markup'; print(GitHub::Markup.render('$<', File.read('$<')))"
+	rst2html.py $<
 
 .PHONY: starlark
 starlark: lol-starlark.star
