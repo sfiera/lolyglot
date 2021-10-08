@@ -57,4 +57,4 @@ xslt: lol-xslt.xslt
 
 .PHONY: yaml
 yaml: lol-yaml.yaml
-	python3 -c "import yaml; print(yaml.load(open('$<')))"
+	python3 -c "import yaml; print(yaml.safe_load(open('$<')))"
