@@ -1,14 +1,22 @@
 .PHONY: help
 help:
-	@ echo "usage: make gotemplate"
+	@ echo "usage: make git"
+	@ echo "       make gotemplate"
 	@ echo "       make jinja2"
 	@ echo "       make jsonnet"
 	@ echo "       make make"
+	@ echo "       make man"
+	@ echo "       make preproc"
 	@ echo "       make rst"
 	@ echo "       make starlark"
+	@ echo "       make svg"
 	@ echo "       make xml"
 	@ echo "       make xslt"
 	@ echo "       make yaml"
+
+.PHONY: git
+git: lol-git.git
+	git clone $<
 
 .PHONY: gotemplate
 gotemplate: lol-gotemplate.go
